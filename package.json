@@ -4,7 +4,7 @@
   "description": "Browser Automation Project, orchestrates Playwright-based, human-like web automation across multiple ixBrowser profiles in parallel",
   "main": "src/core/_launchAutomation.js",
   "scripts": {
-    "start": "npm run build && node dist/core/_launchAutomation.js",
+    "start": "npm run build && node dist/src/core/_launchAutomation.js",
     "build": "tsc",
     "dev": "ts-node src/core/_launchAutomation.ts",
     "install-deps": "npm install playwright-extra playwright-extra-plugin-stealth",
@@ -17,7 +17,7 @@
     "update-tasks": "ts-node scripts/generate-task-registry.ts"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.4.2",
     "playwright": "^1.41.0",
     "playwright-extra": "^4.3.4",
     "zod": "^4.1.12"
