@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { AuditLogger } from '../utils/audit-logger';
 import { IxBrowserClient } from '../utils/ixBrowserClient';
 import { BrowserPool } from './browser-pool';
